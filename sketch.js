@@ -9,14 +9,16 @@ function preload() {
 
 function setup() { 
     key.play ();
+    createCanvas(windowWidth, windowHeight);
+    background(0)
+   
    
     // Put things you want to run once in here. 
   }
 
 
   function draw() {
-    createCanvas(windowWidth, windowHeight);
-    background(0)
+    
    
    
     // Put things you want to over and over here. 
